@@ -1,3 +1,5 @@
+document.body.scrollTop = document.documentElement.scrollTop = 0;
+
 document.addEventListener('scroll', () => {
     const navdiv = document.querySelector('.navdiv');
 
